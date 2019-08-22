@@ -11053,6 +11053,14 @@ video {
   font-size: 4rem;
 }
 
+.text-7xl {
+  font-size: 5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -21896,6 +21904,14 @@ button:focus {
     font-size: 4rem;
   }
 
+  .sm\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -32732,6 +32748,14 @@ button:focus {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .md\:text-8xl {
+    font-size: 6rem;
   }
 
   .md\:italic {
@@ -43572,6 +43596,14 @@ button:focus {
     font-size: 4rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -54408,6 +54440,14 @@ button:focus {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
   }
 
   .xl\:italic {
