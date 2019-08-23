@@ -19,7 +19,7 @@ const About = () => {
       </h2>
       <p className={`${pBase } sm:px-10 sm:text-2xl sm:px-12 md:px-16 md:text-3xl xl:text-4xl xl:px-32`}>
         My name is Edwin Coronado. If you're looking for my photography site
-        click <Link url={photoUrl}>here</Link>. I am a Computer Engineering and
+        click <Link url={photoUrl}>here</Link>.<br /><br />I am a Computer Engineering and
         Criminal Justice Administration graduate from SDSU and currently a
         Senior UI/UX Quality Engineer at <Link url={snUrl}>ServiceNow</Link> and
         co-founder of <Link url={fntUrl}>FNT Life</Link>; a fitness & nutrition
