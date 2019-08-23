@@ -5,6 +5,17 @@
 @tailwind utilities;
 
 /* Custom CSS */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+a {
+  border-bottom: 3px solid #9080d0;
+}
+
+a:hover {
+  background-image: linear-gradient(180deg,transparent 62%,#9080d0 0,#9080d0);
+}
+
+
 button:focus {
   outline: 0;
 }

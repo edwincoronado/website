@@ -1070,6 +1070,18 @@ video {
   background-color: #D0B080;
 }
 
+.bg-almost-black-200 {
+  background-color: #262629;
+}
+
+.bg-almost-black-100 {
+  background-color: #313136;
+}
+
+.bg-orchid-plum {
+  background-color: #9080d0;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1446,6 +1458,18 @@ video {
   background-color: #D0B080;
 }
 
+.hover\:bg-almost-black-200:hover {
+  background-color: #262629;
+}
+
+.hover\:bg-almost-black-100:hover {
+  background-color: #313136;
+}
+
+.hover\:bg-orchid-plum:hover {
+  background-color: #9080d0;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1820,6 +1844,18 @@ video {
 
 .focus\:bg-desert-sand:focus {
   background-color: #D0B080;
+}
+
+.focus\:bg-almost-black-200:focus {
+  background-color: #262629;
+}
+
+.focus\:bg-almost-black-100:focus {
+  background-color: #313136;
+}
+
+.focus\:bg-orchid-plum:focus {
+  background-color: #9080d0;
 }
 
 .bg-bottom {
@@ -2278,6 +2314,18 @@ video {
   border-color: #D0B080;
 }
 
+.border-almost-black-200 {
+  border-color: #262629;
+}
+
+.border-almost-black-100 {
+  border-color: #313136;
+}
+
+.border-orchid-plum {
+  border-color: #9080d0;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2654,6 +2702,18 @@ video {
   border-color: #D0B080;
 }
 
+.hover\:border-almost-black-200:hover {
+  border-color: #262629;
+}
+
+.hover\:border-almost-black-100:hover {
+  border-color: #313136;
+}
+
+.hover\:border-orchid-plum:hover {
+  border-color: #9080d0;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -3028,6 +3088,18 @@ video {
 
 .focus\:border-desert-sand:focus {
   border-color: #D0B080;
+}
+
+.focus\:border-almost-black-200:focus {
+  border-color: #262629;
+}
+
+.focus\:border-almost-black-100:focus {
+  border-color: #313136;
+}
+
+.focus\:border-orchid-plum:focus {
+  border-color: #9080d0;
 }
 
 .rounded-none {
@@ -3684,6 +3756,10 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-Rubik {
+  font-family: Rubik, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -3718,6 +3794,10 @@ video {
 
 .font-black {
   font-weight: 900;
+}
+
+.font-bolder {
+  font-weight: 750;
 }
 
 .hover\:font-hairline:hover {
@@ -3756,6 +3836,10 @@ video {
   font-weight: 900;
 }
 
+.hover\:font-bolder:hover {
+  font-weight: 750;
+}
+
 .focus\:font-hairline:focus {
   font-weight: 100;
 }
@@ -3790,6 +3874,10 @@ video {
 
 .focus\:font-black:focus {
   font-weight: 900;
+}
+
+.focus\:font-bolder:focus {
+  font-weight: 750;
 }
 
 .h-0 {
@@ -7766,6 +7854,66 @@ video {
   color: #D0B080;
 }
 
+.placeholder-almost-black-200::-webkit-input-placeholder {
+  color: #262629;
+}
+
+.placeholder-almost-black-200::-moz-placeholder {
+  color: #262629;
+}
+
+.placeholder-almost-black-200:-ms-input-placeholder {
+  color: #262629;
+}
+
+.placeholder-almost-black-200::-ms-input-placeholder {
+  color: #262629;
+}
+
+.placeholder-almost-black-200::placeholder {
+  color: #262629;
+}
+
+.placeholder-almost-black-100::-webkit-input-placeholder {
+  color: #313136;
+}
+
+.placeholder-almost-black-100::-moz-placeholder {
+  color: #313136;
+}
+
+.placeholder-almost-black-100:-ms-input-placeholder {
+  color: #313136;
+}
+
+.placeholder-almost-black-100::-ms-input-placeholder {
+  color: #313136;
+}
+
+.placeholder-almost-black-100::placeholder {
+  color: #313136;
+}
+
+.placeholder-orchid-plum::-webkit-input-placeholder {
+  color: #9080d0;
+}
+
+.placeholder-orchid-plum::-moz-placeholder {
+  color: #9080d0;
+}
+
+.placeholder-orchid-plum:-ms-input-placeholder {
+  color: #9080d0;
+}
+
+.placeholder-orchid-plum::-ms-input-placeholder {
+  color: #9080d0;
+}
+
+.placeholder-orchid-plum::placeholder {
+  color: #9080d0;
+}
+
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -9646,6 +9794,66 @@ video {
   color: #D0B080;
 }
 
+.focus\:placeholder-almost-black-200:focus::-webkit-input-placeholder {
+  color: #262629;
+}
+
+.focus\:placeholder-almost-black-200:focus::-moz-placeholder {
+  color: #262629;
+}
+
+.focus\:placeholder-almost-black-200:focus:-ms-input-placeholder {
+  color: #262629;
+}
+
+.focus\:placeholder-almost-black-200:focus::-ms-input-placeholder {
+  color: #262629;
+}
+
+.focus\:placeholder-almost-black-200:focus::placeholder {
+  color: #262629;
+}
+
+.focus\:placeholder-almost-black-100:focus::-webkit-input-placeholder {
+  color: #313136;
+}
+
+.focus\:placeholder-almost-black-100:focus::-moz-placeholder {
+  color: #313136;
+}
+
+.focus\:placeholder-almost-black-100:focus:-ms-input-placeholder {
+  color: #313136;
+}
+
+.focus\:placeholder-almost-black-100:focus::-ms-input-placeholder {
+  color: #313136;
+}
+
+.focus\:placeholder-almost-black-100:focus::placeholder {
+  color: #313136;
+}
+
+.focus\:placeholder-orchid-plum:focus::-webkit-input-placeholder {
+  color: #9080d0;
+}
+
+.focus\:placeholder-orchid-plum:focus::-moz-placeholder {
+  color: #9080d0;
+}
+
+.focus\:placeholder-orchid-plum:focus:-ms-input-placeholder {
+  color: #9080d0;
+}
+
+.focus\:placeholder-orchid-plum:focus::-ms-input-placeholder {
+  color: #9080d0;
+}
+
+.focus\:placeholder-orchid-plum:focus::placeholder {
+  color: #9080d0;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -10261,6 +10469,18 @@ video {
   color: #D0B080;
 }
 
+.text-almost-black-200 {
+  color: #262629;
+}
+
+.text-almost-black-100 {
+  color: #313136;
+}
+
+.text-orchid-plum {
+  color: #9080d0;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -10635,6 +10855,18 @@ video {
 
 .hover\:text-desert-sand:hover {
   color: #D0B080;
+}
+
+.hover\:text-almost-black-200:hover {
+  color: #262629;
+}
+
+.hover\:text-almost-black-100:hover {
+  color: #313136;
+}
+
+.hover\:text-orchid-plum:hover {
+  color: #9080d0;
 }
 
 .focus\:text-transparent:focus {
@@ -11013,6 +11245,18 @@ video {
   color: #D0B080;
 }
 
+.focus\:text-almost-black-200:focus {
+  color: #262629;
+}
+
+.focus\:text-almost-black-100:focus {
+  color: #313136;
+}
+
+.focus\:text-orchid-plum:focus {
+  color: #9080d0;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -11051,6 +11295,10 @@ video {
 
 .text-6xl {
   font-size: 4rem;
+}
+
+.text-4\.5xl {
+  font-size: 2.65rem;
 }
 
 .text-7xl {
@@ -11480,8 +11728,16 @@ video {
 
 /* Custom CSS */
 
-.text-shadow {
-  text-shadow: 6px 3px 9px rgba(150, 150, 150, 1);
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+a {
+  border-bottom: 3px solid #9080d0;
+}
+
+a:hover {
+  background-image: -webkit-gradient(linear,left top, left bottom,color-stop(62%, transparent),color-stop(0, #9080d0),to(#9080d0));
+  background-image: -webkit-linear-gradient(top,transparent 62%,#9080d0 0,#9080d0);
+  background-image: linear-gradient(180deg,transparent 62%,#9080d0 0,#9080d0);
 }
 
 button:focus {
@@ -11945,6 +12201,18 @@ section {
     background-color: #D0B080;
   }
 
+  .sm\:bg-almost-black-200 {
+    background-color: #262629;
+  }
+
+  .sm\:bg-almost-black-100 {
+    background-color: #313136;
+  }
+
+  .sm\:bg-orchid-plum {
+    background-color: #9080d0;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -12321,6 +12589,18 @@ section {
     background-color: #D0B080;
   }
 
+  .sm\:hover\:bg-almost-black-200:hover {
+    background-color: #262629;
+  }
+
+  .sm\:hover\:bg-almost-black-100:hover {
+    background-color: #313136;
+  }
+
+  .sm\:hover\:bg-orchid-plum:hover {
+    background-color: #9080d0;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -12695,6 +12975,18 @@ section {
 
   .sm\:focus\:bg-desert-sand:focus {
     background-color: #D0B080;
+  }
+
+  .sm\:focus\:bg-almost-black-200:focus {
+    background-color: #262629;
+  }
+
+  .sm\:focus\:bg-almost-black-100:focus {
+    background-color: #313136;
+  }
+
+  .sm\:focus\:bg-orchid-plum:focus {
+    background-color: #9080d0;
   }
 
   .sm\:bg-bottom {
@@ -13153,6 +13445,18 @@ section {
     border-color: #D0B080;
   }
 
+  .sm\:border-almost-black-200 {
+    border-color: #262629;
+  }
+
+  .sm\:border-almost-black-100 {
+    border-color: #313136;
+  }
+
+  .sm\:border-orchid-plum {
+    border-color: #9080d0;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -13529,6 +13833,18 @@ section {
     border-color: #D0B080;
   }
 
+  .sm\:hover\:border-almost-black-200:hover {
+    border-color: #262629;
+  }
+
+  .sm\:hover\:border-almost-black-100:hover {
+    border-color: #313136;
+  }
+
+  .sm\:hover\:border-orchid-plum:hover {
+    border-color: #9080d0;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -13903,6 +14219,18 @@ section {
 
   .sm\:focus\:border-desert-sand:focus {
     border-color: #D0B080;
+  }
+
+  .sm\:focus\:border-almost-black-200:focus {
+    border-color: #262629;
+  }
+
+  .sm\:focus\:border-almost-black-100:focus {
+    border-color: #313136;
+  }
+
+  .sm\:focus\:border-orchid-plum:focus {
+    border-color: #9080d0;
   }
 
   .sm\:rounded-none {
@@ -14559,6 +14887,10 @@ section {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-Rubik {
+    font-family: Rubik, sans-serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -14593,6 +14925,10 @@ section {
 
   .sm\:font-black {
     font-weight: 900;
+  }
+
+  .sm\:font-bolder {
+    font-weight: 750;
   }
 
   .sm\:hover\:font-hairline:hover {
@@ -14631,6 +14967,10 @@ section {
     font-weight: 900;
   }
 
+  .sm\:hover\:font-bolder:hover {
+    font-weight: 750;
+  }
+
   .sm\:focus\:font-hairline:focus {
     font-weight: 100;
   }
@@ -14665,6 +15005,10 @@ section {
 
   .sm\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .sm\:focus\:font-bolder:focus {
+    font-weight: 750;
   }
 
   .sm\:h-0 {
@@ -18641,6 +18985,66 @@ section {
     color: #D0B080;
   }
 
+  .sm\:placeholder-almost-black-200::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:placeholder-almost-black-200::-moz-placeholder {
+    color: #262629;
+  }
+
+  .sm\:placeholder-almost-black-200:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:placeholder-almost-black-200::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:placeholder-almost-black-200::placeholder {
+    color: #262629;
+  }
+
+  .sm\:placeholder-almost-black-100::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:placeholder-almost-black-100::-moz-placeholder {
+    color: #313136;
+  }
+
+  .sm\:placeholder-almost-black-100:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:placeholder-almost-black-100::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:placeholder-almost-black-100::placeholder {
+    color: #313136;
+  }
+
+  .sm\:placeholder-orchid-plum::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:placeholder-orchid-plum::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:placeholder-orchid-plum:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:placeholder-orchid-plum::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:placeholder-orchid-plum::placeholder {
+    color: #9080d0;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -20521,6 +20925,66 @@ section {
     color: #D0B080;
   }
 
+  .sm\:focus\:placeholder-almost-black-200:focus::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:focus\:placeholder-almost-black-200:focus::-moz-placeholder {
+    color: #262629;
+  }
+
+  .sm\:focus\:placeholder-almost-black-200:focus:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:focus\:placeholder-almost-black-200:focus::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .sm\:focus\:placeholder-almost-black-200:focus::placeholder {
+    color: #262629;
+  }
+
+  .sm\:focus\:placeholder-almost-black-100:focus::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:focus\:placeholder-almost-black-100:focus::-moz-placeholder {
+    color: #313136;
+  }
+
+  .sm\:focus\:placeholder-almost-black-100:focus:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:focus\:placeholder-almost-black-100:focus::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .sm\:focus\:placeholder-almost-black-100:focus::placeholder {
+    color: #313136;
+  }
+
+  .sm\:focus\:placeholder-orchid-plum:focus::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:focus\:placeholder-orchid-plum:focus::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:focus\:placeholder-orchid-plum:focus:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:focus\:placeholder-orchid-plum:focus::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .sm\:focus\:placeholder-orchid-plum:focus::placeholder {
+    color: #9080d0;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -21136,6 +21600,18 @@ section {
     color: #D0B080;
   }
 
+  .sm\:text-almost-black-200 {
+    color: #262629;
+  }
+
+  .sm\:text-almost-black-100 {
+    color: #313136;
+  }
+
+  .sm\:text-orchid-plum {
+    color: #9080d0;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -21510,6 +21986,18 @@ section {
 
   .sm\:hover\:text-desert-sand:hover {
     color: #D0B080;
+  }
+
+  .sm\:hover\:text-almost-black-200:hover {
+    color: #262629;
+  }
+
+  .sm\:hover\:text-almost-black-100:hover {
+    color: #313136;
+  }
+
+  .sm\:hover\:text-orchid-plum:hover {
+    color: #9080d0;
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -21888,6 +22376,18 @@ section {
     color: #D0B080;
   }
 
+  .sm\:focus\:text-almost-black-200:focus {
+    color: #262629;
+  }
+
+  .sm\:focus\:text-almost-black-100:focus {
+    color: #313136;
+  }
+
+  .sm\:focus\:text-orchid-plum:focus {
+    color: #9080d0;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
   }
@@ -21926,6 +22426,10 @@ section {
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-4\.5xl {
+    font-size: 2.65rem;
   }
 
   .sm\:text-7xl {
@@ -22795,6 +23299,18 @@ section {
     background-color: #D0B080;
   }
 
+  .md\:bg-almost-black-200 {
+    background-color: #262629;
+  }
+
+  .md\:bg-almost-black-100 {
+    background-color: #313136;
+  }
+
+  .md\:bg-orchid-plum {
+    background-color: #9080d0;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -23171,6 +23687,18 @@ section {
     background-color: #D0B080;
   }
 
+  .md\:hover\:bg-almost-black-200:hover {
+    background-color: #262629;
+  }
+
+  .md\:hover\:bg-almost-black-100:hover {
+    background-color: #313136;
+  }
+
+  .md\:hover\:bg-orchid-plum:hover {
+    background-color: #9080d0;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -23545,6 +24073,18 @@ section {
 
   .md\:focus\:bg-desert-sand:focus {
     background-color: #D0B080;
+  }
+
+  .md\:focus\:bg-almost-black-200:focus {
+    background-color: #262629;
+  }
+
+  .md\:focus\:bg-almost-black-100:focus {
+    background-color: #313136;
+  }
+
+  .md\:focus\:bg-orchid-plum:focus {
+    background-color: #9080d0;
   }
 
   .md\:bg-bottom {
@@ -24003,6 +24543,18 @@ section {
     border-color: #D0B080;
   }
 
+  .md\:border-almost-black-200 {
+    border-color: #262629;
+  }
+
+  .md\:border-almost-black-100 {
+    border-color: #313136;
+  }
+
+  .md\:border-orchid-plum {
+    border-color: #9080d0;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -24379,6 +24931,18 @@ section {
     border-color: #D0B080;
   }
 
+  .md\:hover\:border-almost-black-200:hover {
+    border-color: #262629;
+  }
+
+  .md\:hover\:border-almost-black-100:hover {
+    border-color: #313136;
+  }
+
+  .md\:hover\:border-orchid-plum:hover {
+    border-color: #9080d0;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -24753,6 +25317,18 @@ section {
 
   .md\:focus\:border-desert-sand:focus {
     border-color: #D0B080;
+  }
+
+  .md\:focus\:border-almost-black-200:focus {
+    border-color: #262629;
+  }
+
+  .md\:focus\:border-almost-black-100:focus {
+    border-color: #313136;
+  }
+
+  .md\:focus\:border-orchid-plum:focus {
+    border-color: #9080d0;
   }
 
   .md\:rounded-none {
@@ -25409,6 +25985,10 @@ section {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-Rubik {
+    font-family: Rubik, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -25443,6 +26023,10 @@ section {
 
   .md\:font-black {
     font-weight: 900;
+  }
+
+  .md\:font-bolder {
+    font-weight: 750;
   }
 
   .md\:hover\:font-hairline:hover {
@@ -25481,6 +26065,10 @@ section {
     font-weight: 900;
   }
 
+  .md\:hover\:font-bolder:hover {
+    font-weight: 750;
+  }
+
   .md\:focus\:font-hairline:focus {
     font-weight: 100;
   }
@@ -25515,6 +26103,10 @@ section {
 
   .md\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .md\:focus\:font-bolder:focus {
+    font-weight: 750;
   }
 
   .md\:h-0 {
@@ -29491,6 +30083,66 @@ section {
     color: #D0B080;
   }
 
+  .md\:placeholder-almost-black-200::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:placeholder-almost-black-200::-moz-placeholder {
+    color: #262629;
+  }
+
+  .md\:placeholder-almost-black-200:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:placeholder-almost-black-200::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:placeholder-almost-black-200::placeholder {
+    color: #262629;
+  }
+
+  .md\:placeholder-almost-black-100::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:placeholder-almost-black-100::-moz-placeholder {
+    color: #313136;
+  }
+
+  .md\:placeholder-almost-black-100:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:placeholder-almost-black-100::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:placeholder-almost-black-100::placeholder {
+    color: #313136;
+  }
+
+  .md\:placeholder-orchid-plum::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:placeholder-orchid-plum::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:placeholder-orchid-plum:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:placeholder-orchid-plum::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:placeholder-orchid-plum::placeholder {
+    color: #9080d0;
+  }
+
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -31371,6 +32023,66 @@ section {
     color: #D0B080;
   }
 
+  .md\:focus\:placeholder-almost-black-200:focus::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:focus\:placeholder-almost-black-200:focus::-moz-placeholder {
+    color: #262629;
+  }
+
+  .md\:focus\:placeholder-almost-black-200:focus:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:focus\:placeholder-almost-black-200:focus::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .md\:focus\:placeholder-almost-black-200:focus::placeholder {
+    color: #262629;
+  }
+
+  .md\:focus\:placeholder-almost-black-100:focus::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:focus\:placeholder-almost-black-100:focus::-moz-placeholder {
+    color: #313136;
+  }
+
+  .md\:focus\:placeholder-almost-black-100:focus:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:focus\:placeholder-almost-black-100:focus::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .md\:focus\:placeholder-almost-black-100:focus::placeholder {
+    color: #313136;
+  }
+
+  .md\:focus\:placeholder-orchid-plum:focus::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:focus\:placeholder-orchid-plum:focus::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:focus\:placeholder-orchid-plum:focus:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:focus\:placeholder-orchid-plum:focus::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .md\:focus\:placeholder-orchid-plum:focus::placeholder {
+    color: #9080d0;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -31986,6 +32698,18 @@ section {
     color: #D0B080;
   }
 
+  .md\:text-almost-black-200 {
+    color: #262629;
+  }
+
+  .md\:text-almost-black-100 {
+    color: #313136;
+  }
+
+  .md\:text-orchid-plum {
+    color: #9080d0;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -32360,6 +33084,18 @@ section {
 
   .md\:hover\:text-desert-sand:hover {
     color: #D0B080;
+  }
+
+  .md\:hover\:text-almost-black-200:hover {
+    color: #262629;
+  }
+
+  .md\:hover\:text-almost-black-100:hover {
+    color: #313136;
+  }
+
+  .md\:hover\:text-orchid-plum:hover {
+    color: #9080d0;
   }
 
   .md\:focus\:text-transparent:focus {
@@ -32738,6 +33474,18 @@ section {
     color: #D0B080;
   }
 
+  .md\:focus\:text-almost-black-200:focus {
+    color: #262629;
+  }
+
+  .md\:focus\:text-almost-black-100:focus {
+    color: #313136;
+  }
+
+  .md\:focus\:text-orchid-plum:focus {
+    color: #9080d0;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -32776,6 +33524,10 @@ section {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-4\.5xl {
+    font-size: 2.65rem;
   }
 
   .md\:text-7xl {
@@ -33645,6 +34397,18 @@ section {
     background-color: #D0B080;
   }
 
+  .lg\:bg-almost-black-200 {
+    background-color: #262629;
+  }
+
+  .lg\:bg-almost-black-100 {
+    background-color: #313136;
+  }
+
+  .lg\:bg-orchid-plum {
+    background-color: #9080d0;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -34021,6 +34785,18 @@ section {
     background-color: #D0B080;
   }
 
+  .lg\:hover\:bg-almost-black-200:hover {
+    background-color: #262629;
+  }
+
+  .lg\:hover\:bg-almost-black-100:hover {
+    background-color: #313136;
+  }
+
+  .lg\:hover\:bg-orchid-plum:hover {
+    background-color: #9080d0;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -34395,6 +35171,18 @@ section {
 
   .lg\:focus\:bg-desert-sand:focus {
     background-color: #D0B080;
+  }
+
+  .lg\:focus\:bg-almost-black-200:focus {
+    background-color: #262629;
+  }
+
+  .lg\:focus\:bg-almost-black-100:focus {
+    background-color: #313136;
+  }
+
+  .lg\:focus\:bg-orchid-plum:focus {
+    background-color: #9080d0;
   }
 
   .lg\:bg-bottom {
@@ -34853,6 +35641,18 @@ section {
     border-color: #D0B080;
   }
 
+  .lg\:border-almost-black-200 {
+    border-color: #262629;
+  }
+
+  .lg\:border-almost-black-100 {
+    border-color: #313136;
+  }
+
+  .lg\:border-orchid-plum {
+    border-color: #9080d0;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -35229,6 +36029,18 @@ section {
     border-color: #D0B080;
   }
 
+  .lg\:hover\:border-almost-black-200:hover {
+    border-color: #262629;
+  }
+
+  .lg\:hover\:border-almost-black-100:hover {
+    border-color: #313136;
+  }
+
+  .lg\:hover\:border-orchid-plum:hover {
+    border-color: #9080d0;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -35603,6 +36415,18 @@ section {
 
   .lg\:focus\:border-desert-sand:focus {
     border-color: #D0B080;
+  }
+
+  .lg\:focus\:border-almost-black-200:focus {
+    border-color: #262629;
+  }
+
+  .lg\:focus\:border-almost-black-100:focus {
+    border-color: #313136;
+  }
+
+  .lg\:focus\:border-orchid-plum:focus {
+    border-color: #9080d0;
   }
 
   .lg\:rounded-none {
@@ -36259,6 +37083,10 @@ section {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-Rubik {
+    font-family: Rubik, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -36293,6 +37121,10 @@ section {
 
   .lg\:font-black {
     font-weight: 900;
+  }
+
+  .lg\:font-bolder {
+    font-weight: 750;
   }
 
   .lg\:hover\:font-hairline:hover {
@@ -36331,6 +37163,10 @@ section {
     font-weight: 900;
   }
 
+  .lg\:hover\:font-bolder:hover {
+    font-weight: 750;
+  }
+
   .lg\:focus\:font-hairline:focus {
     font-weight: 100;
   }
@@ -36365,6 +37201,10 @@ section {
 
   .lg\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .lg\:focus\:font-bolder:focus {
+    font-weight: 750;
   }
 
   .lg\:h-0 {
@@ -40341,6 +41181,66 @@ section {
     color: #D0B080;
   }
 
+  .lg\:placeholder-almost-black-200::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:placeholder-almost-black-200::-moz-placeholder {
+    color: #262629;
+  }
+
+  .lg\:placeholder-almost-black-200:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:placeholder-almost-black-200::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:placeholder-almost-black-200::placeholder {
+    color: #262629;
+  }
+
+  .lg\:placeholder-almost-black-100::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:placeholder-almost-black-100::-moz-placeholder {
+    color: #313136;
+  }
+
+  .lg\:placeholder-almost-black-100:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:placeholder-almost-black-100::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:placeholder-almost-black-100::placeholder {
+    color: #313136;
+  }
+
+  .lg\:placeholder-orchid-plum::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:placeholder-orchid-plum::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:placeholder-orchid-plum:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:placeholder-orchid-plum::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:placeholder-orchid-plum::placeholder {
+    color: #9080d0;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -42221,6 +43121,66 @@ section {
     color: #D0B080;
   }
 
+  .lg\:focus\:placeholder-almost-black-200:focus::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:focus\:placeholder-almost-black-200:focus::-moz-placeholder {
+    color: #262629;
+  }
+
+  .lg\:focus\:placeholder-almost-black-200:focus:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:focus\:placeholder-almost-black-200:focus::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .lg\:focus\:placeholder-almost-black-200:focus::placeholder {
+    color: #262629;
+  }
+
+  .lg\:focus\:placeholder-almost-black-100:focus::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:focus\:placeholder-almost-black-100:focus::-moz-placeholder {
+    color: #313136;
+  }
+
+  .lg\:focus\:placeholder-almost-black-100:focus:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:focus\:placeholder-almost-black-100:focus::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .lg\:focus\:placeholder-almost-black-100:focus::placeholder {
+    color: #313136;
+  }
+
+  .lg\:focus\:placeholder-orchid-plum:focus::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:focus\:placeholder-orchid-plum:focus::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:focus\:placeholder-orchid-plum:focus:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:focus\:placeholder-orchid-plum:focus::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .lg\:focus\:placeholder-orchid-plum:focus::placeholder {
+    color: #9080d0;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -42836,6 +43796,18 @@ section {
     color: #D0B080;
   }
 
+  .lg\:text-almost-black-200 {
+    color: #262629;
+  }
+
+  .lg\:text-almost-black-100 {
+    color: #313136;
+  }
+
+  .lg\:text-orchid-plum {
+    color: #9080d0;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -43210,6 +44182,18 @@ section {
 
   .lg\:hover\:text-desert-sand:hover {
     color: #D0B080;
+  }
+
+  .lg\:hover\:text-almost-black-200:hover {
+    color: #262629;
+  }
+
+  .lg\:hover\:text-almost-black-100:hover {
+    color: #313136;
+  }
+
+  .lg\:hover\:text-orchid-plum:hover {
+    color: #9080d0;
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -43588,6 +44572,18 @@ section {
     color: #D0B080;
   }
 
+  .lg\:focus\:text-almost-black-200:focus {
+    color: #262629;
+  }
+
+  .lg\:focus\:text-almost-black-100:focus {
+    color: #313136;
+  }
+
+  .lg\:focus\:text-orchid-plum:focus {
+    color: #9080d0;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -43626,6 +44622,10 @@ section {
 
   .lg\:text-6xl {
     font-size: 4rem;
+  }
+
+  .lg\:text-4\.5xl {
+    font-size: 2.65rem;
   }
 
   .lg\:text-7xl {
@@ -44495,6 +45495,18 @@ section {
     background-color: #D0B080;
   }
 
+  .xl\:bg-almost-black-200 {
+    background-color: #262629;
+  }
+
+  .xl\:bg-almost-black-100 {
+    background-color: #313136;
+  }
+
+  .xl\:bg-orchid-plum {
+    background-color: #9080d0;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -44871,6 +45883,18 @@ section {
     background-color: #D0B080;
   }
 
+  .xl\:hover\:bg-almost-black-200:hover {
+    background-color: #262629;
+  }
+
+  .xl\:hover\:bg-almost-black-100:hover {
+    background-color: #313136;
+  }
+
+  .xl\:hover\:bg-orchid-plum:hover {
+    background-color: #9080d0;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -45245,6 +46269,18 @@ section {
 
   .xl\:focus\:bg-desert-sand:focus {
     background-color: #D0B080;
+  }
+
+  .xl\:focus\:bg-almost-black-200:focus {
+    background-color: #262629;
+  }
+
+  .xl\:focus\:bg-almost-black-100:focus {
+    background-color: #313136;
+  }
+
+  .xl\:focus\:bg-orchid-plum:focus {
+    background-color: #9080d0;
   }
 
   .xl\:bg-bottom {
@@ -45703,6 +46739,18 @@ section {
     border-color: #D0B080;
   }
 
+  .xl\:border-almost-black-200 {
+    border-color: #262629;
+  }
+
+  .xl\:border-almost-black-100 {
+    border-color: #313136;
+  }
+
+  .xl\:border-orchid-plum {
+    border-color: #9080d0;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -46079,6 +47127,18 @@ section {
     border-color: #D0B080;
   }
 
+  .xl\:hover\:border-almost-black-200:hover {
+    border-color: #262629;
+  }
+
+  .xl\:hover\:border-almost-black-100:hover {
+    border-color: #313136;
+  }
+
+  .xl\:hover\:border-orchid-plum:hover {
+    border-color: #9080d0;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -46453,6 +47513,18 @@ section {
 
   .xl\:focus\:border-desert-sand:focus {
     border-color: #D0B080;
+  }
+
+  .xl\:focus\:border-almost-black-200:focus {
+    border-color: #262629;
+  }
+
+  .xl\:focus\:border-almost-black-100:focus {
+    border-color: #313136;
+  }
+
+  .xl\:focus\:border-orchid-plum:focus {
+    border-color: #9080d0;
   }
 
   .xl\:rounded-none {
@@ -47109,6 +48181,10 @@ section {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-Rubik {
+    font-family: Rubik, sans-serif;
+  }
+
   .xl\:font-hairline {
     font-weight: 100;
   }
@@ -47143,6 +48219,10 @@ section {
 
   .xl\:font-black {
     font-weight: 900;
+  }
+
+  .xl\:font-bolder {
+    font-weight: 750;
   }
 
   .xl\:hover\:font-hairline:hover {
@@ -47181,6 +48261,10 @@ section {
     font-weight: 900;
   }
 
+  .xl\:hover\:font-bolder:hover {
+    font-weight: 750;
+  }
+
   .xl\:focus\:font-hairline:focus {
     font-weight: 100;
   }
@@ -47215,6 +48299,10 @@ section {
 
   .xl\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .xl\:focus\:font-bolder:focus {
+    font-weight: 750;
   }
 
   .xl\:h-0 {
@@ -51191,6 +52279,66 @@ section {
     color: #D0B080;
   }
 
+  .xl\:placeholder-almost-black-200::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:placeholder-almost-black-200::-moz-placeholder {
+    color: #262629;
+  }
+
+  .xl\:placeholder-almost-black-200:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:placeholder-almost-black-200::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:placeholder-almost-black-200::placeholder {
+    color: #262629;
+  }
+
+  .xl\:placeholder-almost-black-100::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:placeholder-almost-black-100::-moz-placeholder {
+    color: #313136;
+  }
+
+  .xl\:placeholder-almost-black-100:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:placeholder-almost-black-100::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:placeholder-almost-black-100::placeholder {
+    color: #313136;
+  }
+
+  .xl\:placeholder-orchid-plum::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:placeholder-orchid-plum::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:placeholder-orchid-plum:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:placeholder-orchid-plum::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:placeholder-orchid-plum::placeholder {
+    color: #9080d0;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -53071,6 +54219,66 @@ section {
     color: #D0B080;
   }
 
+  .xl\:focus\:placeholder-almost-black-200:focus::-webkit-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:focus\:placeholder-almost-black-200:focus::-moz-placeholder {
+    color: #262629;
+  }
+
+  .xl\:focus\:placeholder-almost-black-200:focus:-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:focus\:placeholder-almost-black-200:focus::-ms-input-placeholder {
+    color: #262629;
+  }
+
+  .xl\:focus\:placeholder-almost-black-200:focus::placeholder {
+    color: #262629;
+  }
+
+  .xl\:focus\:placeholder-almost-black-100:focus::-webkit-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:focus\:placeholder-almost-black-100:focus::-moz-placeholder {
+    color: #313136;
+  }
+
+  .xl\:focus\:placeholder-almost-black-100:focus:-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:focus\:placeholder-almost-black-100:focus::-ms-input-placeholder {
+    color: #313136;
+  }
+
+  .xl\:focus\:placeholder-almost-black-100:focus::placeholder {
+    color: #313136;
+  }
+
+  .xl\:focus\:placeholder-orchid-plum:focus::-webkit-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:focus\:placeholder-orchid-plum:focus::-moz-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:focus\:placeholder-orchid-plum:focus:-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:focus\:placeholder-orchid-plum:focus::-ms-input-placeholder {
+    color: #9080d0;
+  }
+
+  .xl\:focus\:placeholder-orchid-plum:focus::placeholder {
+    color: #9080d0;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -53686,6 +54894,18 @@ section {
     color: #D0B080;
   }
 
+  .xl\:text-almost-black-200 {
+    color: #262629;
+  }
+
+  .xl\:text-almost-black-100 {
+    color: #313136;
+  }
+
+  .xl\:text-orchid-plum {
+    color: #9080d0;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -54060,6 +55280,18 @@ section {
 
   .xl\:hover\:text-desert-sand:hover {
     color: #D0B080;
+  }
+
+  .xl\:hover\:text-almost-black-200:hover {
+    color: #262629;
+  }
+
+  .xl\:hover\:text-almost-black-100:hover {
+    color: #313136;
+  }
+
+  .xl\:hover\:text-orchid-plum:hover {
+    color: #9080d0;
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -54438,6 +55670,18 @@ section {
     color: #D0B080;
   }
 
+  .xl\:focus\:text-almost-black-200:focus {
+    color: #262629;
+  }
+
+  .xl\:focus\:text-almost-black-100:focus {
+    color: #313136;
+  }
+
+  .xl\:focus\:text-orchid-plum:focus {
+    color: #9080d0;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
   }
@@ -54476,6 +55720,10 @@ section {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-4\.5xl {
+    font-size: 2.65rem;
   }
 
   .xl\:text-7xl {
