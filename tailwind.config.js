@@ -3,8 +3,8 @@ module.exports = {
     extend: {
       colors: {
         "desert-sand": "#D0B080",
-        "almost-black-200": "#262629",
-        "almost-black-100": "#313136",
+        "almost-black-100": "#111111",
+        "almost-black": "#262626",
         "orchid-plum": "#9080d0"
       },
       fontSize: {
@@ -17,7 +17,8 @@ module.exports = {
         "bolder": 750
       },
       fontFamily: {
-        "Rubik": ['Rubik', 'sans-serif']
+        "Rubik": ['Rubik', 'sans-serif'],
+        "Inter-Bold": ['Inter-Bold', 'sans-serif']
       }
     }
   },
