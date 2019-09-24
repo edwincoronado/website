@@ -27,13 +27,13 @@ const About = () => {
         click <Link url={photoUrl}>here</Link>.<br />
         <br />I am a Computer Engineering and Criminal Justice Administration
         graduate from SDSU and currently a Senior UI/UX Quality Engineer at{" "}
-        <Link url={snUrl}>ServiceNow</Link>. I also co-founded
-        <Link url={fntUrl}> FNT Life</Link>; a fitness & nutrition coaching
+        <Link url={snUrl}>ServiceNow</Link>. I also co-founded{" "}
+        <Link url={fntUrl}>FNT Life</Link>; a fitness & nutrition coaching
         company and <Link url={youTubeUrl}>YouTube</Link> channel.
         <br />
         <br /> You can find my detailed résumé in my{" "}
-        <Link url={linkedInUrl}>LinkedIn profile</Link> and shoot me an
-        <Link url={emailUrl}> email</Link> if you have any questions.
+        <Link url={linkedInUrl}>LinkedIn profile</Link> and shoot me an{" "}
+        <Link url={emailUrl}>email</Link> if you have any questions.
         <br />
         <br />
         Looking forward to working with you!
