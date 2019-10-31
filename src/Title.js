@@ -8,7 +8,7 @@ const Title = () => {
       <h1 className={`${h1Base} text-4.5xl mb-12 pl-12 sm:text-5xl sm:pl-16 md:text-6xl md:pl-20 lg:text-8xl lg:pl-20 xl:text-9xl xl:pl-24 text-white`}>
         Edwin
         <br />
-        <span className="text-desert-sand">Coronado Aldaco</span>
+        <span className="text-desert-sand">Coronado</span>
       </h1>
     </section>
   );
