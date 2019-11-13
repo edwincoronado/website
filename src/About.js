@@ -29,7 +29,9 @@ const About = () => {
         <Link url={fntUrl}>FNT Life</Link>; a fitness & nutrition coaching
         company and <Link url={youTubeUrl}>YouTube</Link> channel.
         <br />
+        <br />
         This website is currently under construction. 🏗🙃 
+        <br />
         <br />- Edwin
       </p>
     </section>
