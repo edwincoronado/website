@@ -7,6 +7,7 @@ const About = () => {
   const linkedInUrl = "https://www.linkedin.com/in/edwincoronado/";
   const emailUrl = "mailto:hi@edwincoronado.io";
   const fntUrl = "https://fntlife.com";
+  const uyuyuyUrl = "https://uyuyuy.com";
   const youTubeUrl = "https://youtube.com/fntlife";
 
   const h2Base =
@@ -28,6 +29,10 @@ const About = () => {
         I co-founded{" "}
         <Link url={fntUrl}>FNT Life</Link>; a fitness & nutrition coaching
         company and <Link url={youTubeUrl}>YouTube</Link> channel.
+        <br />
+        <br />
+        I also co-founded <Link url={uyuyuyUrl}>¡UyUyUy!</Link>; a Mexican-inspired nutritional
+        supplements with original flavors that is set to launch late April 2020.
         <br />
         <br />
         This website is currently under construction. 🏗🙃 
