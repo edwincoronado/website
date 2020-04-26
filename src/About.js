@@ -32,7 +32,7 @@ const About = () => {
         <br />
         <br />
         I also co-founded <Link url={uyuyuyUrl}>¡UyUyUy!</Link>; a Mexican-inspired nutritional
-        supplements with original flavors that is set to launch late April 2020.
+        supplements brand with original flavors that is set to launch late April 2020.
         <br />
         <br />
         This website is currently under construction. 🏗🙃 
