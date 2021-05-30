@@ -28,7 +28,7 @@ const About = () => {
         click <Link url={photoUrl}>here</Link>.<br /><br />
         I co-founded{" "}
         <Link url={fntUrl}>FNT Life</Link>; a fitness & nutrition coaching
-        company and <Link url={youTubeUrl}>YouTube</Link> channel with over 173K subscribers.
+        company and <Link url={youTubeUrl}>YouTube</Link> channel with over 203K subscribers.
         <br />
         I also co-founded <Link url={uyuyuyUrl}>¡UyUyUy!</Link>; a Mexican-inspired nutritional
         supplements brand with original flavors that is set to launch late April 2020.
