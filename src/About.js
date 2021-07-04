@@ -2,10 +2,6 @@ import React from "react"
 import Link from "./Link"
 
 const About = () => {
-  const photoUrl = "https://edwincoronado.com";
-  const snUrl = "https://servicenow.com";
-  const linkedInUrl = "https://www.linkedin.com/in/edwincoronado/";
-  const emailUrl = "mailto:hi@edwincoronado.io";
   const fntUrl = "https://fntlife.com";
   const uyuyuyUrl = "https://uyuyuy.com";
   const youTubeUrl = "https://youtube.com/fntlife";
