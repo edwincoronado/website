@@ -39,6 +39,7 @@ const Links = () => {
         </IconButton>
       </Link>
       <Spacer />
+      <Link href="/markdown-editor">Markdown Editor</Link>
     </Flex>
   );
 };
