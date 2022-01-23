@@ -8,7 +8,7 @@ import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 import NewsletterForm from '@/components/NewsletterForm'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 3
 
 export const getStaticProps: GetStaticProps<{ posts: PostFrontMatter[] }> = async () => {
   const posts = await getAllFilesFrontMatter('blog')
@@ -23,10 +23,31 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            Hello! 👋🏻
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            Welcome to my personal site! I'm a software engineer based in San Diego, CA. In here I
+            write about software/tech that I find cool and interesting and also programming
+            topics/tutorials.
+            <br />
+            <br />I also co-founded{' '}
+            <Link
+              href="https://uyuyuy.com"
+              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              aria-label="all posts"
+            >
+              ¡Uyuyuy!
+            </Link>{' '}
+            (pronounced "ooee-ooee-ooee") - a Mexican-inspired nutritional supplements brand with
+            original flavors and{' '}
+            <Link
+              href="https://fntlife.com"
+              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              aria-label="all posts"
+            >
+              FNT Life
+            </Link>{' '}
+            - a fitness & nutrition coaching company and YouTube channel with over 220k subscribers.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
