@@ -27,7 +27,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               Hola 👋🏻!
             </h1>
             <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
-              Welcome to my personal site! I'm a software engineer based in San Diego, CA. In here I
+              My name is Edwin Coronado. I'm a software engineer based in San Diego, CA. In here I
               write about software/tech that I find cool and interesting and also programming
               topics/tutorials.
               <br />
