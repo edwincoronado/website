@@ -20,36 +20,48 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Hello! 👋🏻
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Welcome to my personal site! I'm a software engineer based in San Diego, CA. In here I
-            write about software/tech that I find cool and interesting and also programming
-            topics/tutorials.
-            <br />
-            <br />I also co-founded{' '}
-            <Link
-              href="https://uyuyuy.com"
-              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              aria-label="all posts"
-            >
-              ¡Uyuyuy!
-            </Link>{' '}
-            (pronounced "ooee-ooee-ooee") - a Mexican-inspired nutritional supplements brand with
-            original flavors and{' '}
-            <Link
-              href="https://fntlife.com"
-              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              aria-label="all posts"
-            >
-              FNT Life
-            </Link>{' '}
-            - a fitness & nutrition coaching company and YouTube channel with over 220k subscribers.
-          </p>
+      <div>
+        <div className="flex flex-col items-start md:items-center sm:items-center my-6 xl:flex-row gap-x-12 xl:mb-12">
+          <div>
+            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Hola 👋🏻!
+            </h1>
+            <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
+              Welcome to my personal site! I'm a software engineer based in San Diego, CA. In here I
+              write about software/tech that I find cool and interesting and also programming
+              topics/tutorials.
+              <br />
+              <br />I also co-founded{' '}
+              <Link
+                href="https://uyuyuy.com"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label="all posts"
+              >
+                ¡Uyuyuy!
+              </Link>{' '}
+              (pronounced "ooee-ooee-ooee") - a Mexican-inspired nutritional supplements brand with
+              original flavors and{' '}
+              <Link
+                href="https://fntlife.com"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label="all posts"
+              >
+                FNT Life
+              </Link>{' '}
+              - a fitness & nutrition coaching company and YouTube channel with over 220k
+              subscribers.
+            </h2>
+          </div>
+          <div className="flex items-center justify-center md:pt-8 sm:pt-8 xs:pt-8">
+            <div className="p-6 bg-gray-100 dark:bg-gray-800">
+              <NewsletterForm />
+            </div>
+          </div>
         </div>
+        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+          Latest blog posts
+        </h2>
+        <hr className="border-gray-200 dark:border-gray-700" />
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
@@ -111,11 +123,6 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           >
             All Posts &rarr;
           </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
         </div>
       )}
     </>

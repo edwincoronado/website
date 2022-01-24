@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Edwin Coronado',
   author: 'Edwin Coronado',
-  headerTitle: 'Edwin Coronado',
+  headerTitle: 'ec',
   description: 'Personal blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
