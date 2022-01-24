@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Edwin Coronado',
   author: 'Edwin Coronado',
-  headerTitle: 'Edwin Coronado',
+  headerTitle: 'ec',
   description: 'Personal blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -27,7 +27,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'mailchimp',
   },
   comment: {
     // Select a provider and use the environment variables associated to it
