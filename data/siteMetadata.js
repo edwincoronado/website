@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Edwin Coronado',
   author: 'Edwin Coronado',
   headerTitle: 'ec',
-  description: 'Personal blog',
+  description:
+    'Personal website of Edwin Coronado. Blog about software development, software engineering, cool technology and tools.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://edwincoronado.io',

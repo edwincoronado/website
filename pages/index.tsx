@@ -24,12 +24,11 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <div className="flex flex-col items-start md:items-center sm:items-center my-6 xl:flex-row gap-x-12 xl:mb-12">
           <div>
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Hola 👋🏻!
+              ¡Hola, everybody 👋🏻!
             </h1>
             <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
-              My name is Edwin Coronado. I'm a software engineer based in San Diego, CA. In here I
-              write about software/tech that I find cool and interesting and also programming
-              topics/tutorials.
+              My name is Edwin Coronado. I'm a software engineer based in San Diego, CA. I write
+              tutorials on software development and posts about cool tools I find.
               <br />
               <br />I also co-founded{' '}
               <Link
