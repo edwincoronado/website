@@ -11,6 +11,7 @@ import { Toc } from 'types/Toc'
 import remarkGfm from 'remark-gfm'
 import remarkFootnotes from 'remark-footnotes'
 import remarkMath from 'remark-math'
+import remarkExtractFrontmatter from './remark-extract-frontmatter'
 import remarkCodeTitles from './remark-code-title'
 import remarkTocHeadings from './remark-toc-headings'
 import remarkImgToJsx from './remark-img-to-jsx'
@@ -20,6 +21,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeKatex from 'rehype-katex'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
+import rehypePresetMinify from 'rehype-preset-minify'
 
 const root = process.cwd()
 
@@ -40,7 +42,6 @@ export function dateSortDesc(a: string, b: string) {
   return 0
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function getFileBySlug<T>(type: 'authors' | 'blog', slug: string | string[]) {
   const mdxPath = path.join(root, 'data', type, `${slug}.mdx`)
   const mdPath = path.join(root, 'data', type, `${slug}.md`)
@@ -69,6 +70,7 @@ export async function getFileBySlug<T>(type: 'authors' | 'blog', slug: string | 
       // plugins in the future.
       options.remarkPlugins = [
         ...(options.remarkPlugins ?? []),
+        remarkExtractFrontmatter,
         [remarkTocHeadings, { exportRef: toc }],
         remarkGfm,
         remarkCodeTitles,
@@ -81,11 +83,9 @@ export async function getFileBySlug<T>(type: 'authors' | 'blog', slug: string | 
         rehypeSlug,
         rehypeAutolinkHeadings,
         rehypeKatex,
-        [
-          rehypeCitation,
-          { bibliography: frontmatter?.bibliography, path: path.join(root, 'data') },
-        ],
+        [rehypeCitation, { path: path.join(root, 'data') }],
         [rehypePrismPlus, { ignoreMissing: true }],
+        rehypePresetMinify,
       ]
       return options
     },

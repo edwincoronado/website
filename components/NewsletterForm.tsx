@@ -68,7 +68,9 @@ const NewsletterForm = ({ title = 'Subscribe to my newsletter to stay updated' }
           </button>
         </div>
       </form>
-      {error && <div className="pt-2 text-sm text-red-500 w-72 dark:text-red-400">{message}</div>}
+      {error && (
+        <div className="w-72 pt-2 text-sm text-red-500 dark:text-red-400 sm:w-96">{message}</div>
+      )}
     </div>
   )
 }
@@ -77,7 +79,7 @@ export default NewsletterForm
 
 export const BlogNewsletterForm = ({ title }) => (
   <div className="flex items-center justify-center">
-    <div className="p-6 bg-gray-100 dark:bg-gray-800 sm:px-14 sm:py-8">
+    <div className="bg-gray-100 p-6 dark:bg-gray-800 sm:px-14 sm:py-8">
       <NewsletterForm title={title} />
     </div>
   </div>
